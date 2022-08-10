@@ -1,4 +1,18 @@
 body{
     margin:0;
     padding:0;
+    background-color: rgb(94, 94, 94);
+    color: #fff;
+  
+}
+
+.card{
+    display: grid;
+    padding: 1em;
+    font-size: 1em;
+}
+.name{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 800;
 }
