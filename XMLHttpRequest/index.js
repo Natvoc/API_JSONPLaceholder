@@ -7,10 +7,10 @@ function onRequestHandler() {
         const data = JSON.parse(this.response);
         const HTMLResponse = document.querySelector("#app");
 
-        const tpl = data.map((user) => `<li>${user.name} <br> ${user.email}`);
-        HTMLResponse.innerHTML = `<ul>${tpl}</ul>`
+        const tpl = data.map((user) => `<div class="name">${user.name}</div> <div class="email">${user.email}</div> <div class="phone">${user.phone}</div> <div class="web">${user.website}</div>`);
+        HTMLResponse.innerHTML = `<div class="card">${tpl}</div>`
     }
-
+ 
 }
 
 xhr.addEventListener("load", onRequestHandler);
