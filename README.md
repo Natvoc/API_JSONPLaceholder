@@ -1,4 +1,4 @@
-## API JSON Placeholdet test
+## API JSON Placeholdet Test
 
 Repositorio creado para realizar pruebas de diferentes métodos de consultas al API de [JSON Placeholder](https://jsonplaceholder.typicode.com/) 
 
